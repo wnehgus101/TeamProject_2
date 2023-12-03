@@ -27,25 +27,25 @@
             android:layout_height="match_parent">
 
             <EditText
-                android:id="@+id/editTextText2"
+                android:id="@+id/join_id"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="100dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="108dp"
                 android:ems="10"
                 android:hint="아이디(영어로, 4자 이상, 10자 이내)"
                 android:inputType="text"
                 android:textSize="20sp"
-                app:layout_constraintEnd_toStartOf="@+id/button6"
-                app:layout_constraintHorizontal_bias="0.795"
+                app:layout_constraintEnd_toStartOf="@+id/check_button"
+                app:layout_constraintHorizontal_bias="0.808"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/check_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="104dp"
-                android:layout_marginEnd="36dp"
+                android:layout_marginTop="108dp"
+                android:layout_marginEnd="40dp"
                 android:text="확인"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -61,7 +61,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.487"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/editTextText2" />
+                app:layout_constraintTop_toBottomOf="@+id/join_id" />
 
             <EditText
                 android:id="@+id/join_pwck"

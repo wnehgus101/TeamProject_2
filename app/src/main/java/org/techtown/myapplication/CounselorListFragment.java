@@ -10,10 +10,10 @@ import android.view.ViewGroup;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link recordActivity#newInstance} factory method to
+ * Use the {@link CounselorListFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class recordActivity extends Fragment {
+public class CounselorListFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -24,7 +24,7 @@ public class recordActivity extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public recordActivity() {
+    public CounselorListFragment() {
         // Required empty public constructor
     }
 
@@ -34,11 +34,11 @@ public class recordActivity extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment record.
+     * @return A new instance of fragment Counselor_List.
      */
     // TODO: Rename and change types and number of parameters
-    public static recordActivity newInstance(String param1, String param2) {
-        recordActivity fragment = new recordActivity();
+    public static CounselorListFragment newInstance(String param1, String param2) {
+        CounselorListFragment fragment = new CounselorListFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -59,6 +59,6 @@ public class recordActivity extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_record, container, false);
+        return inflater.inflate(R.layout.fragment_counselorlist, container, false);
     }
 }

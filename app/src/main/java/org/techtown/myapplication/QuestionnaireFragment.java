@@ -10,10 +10,10 @@ import android.view.ViewGroup;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link medicalrecordsActivity#newInstance} factory method to
+ * Use the {@link QuestionnaireFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class medicalrecordsActivity extends Fragment {
+public class QuestionnaireFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -24,7 +24,7 @@ public class medicalrecordsActivity extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public medicalrecordsActivity() {
+    public QuestionnaireFragment() {
         // Required empty public constructor
     }
 
@@ -34,11 +34,11 @@ public class medicalrecordsActivity extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment medicalrecordsActivity.
+     * @return A new instance of fragment questionnaire.
      */
     // TODO: Rename and change types and number of parameters
-    public static medicalrecordsActivity newInstance(String param1, String param2) {
-        medicalrecordsActivity fragment = new medicalrecordsActivity();
+    public static QuestionnaireFragment newInstance(String param1, String param2) {
+        QuestionnaireFragment fragment = new QuestionnaireFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -59,6 +59,6 @@ public class medicalrecordsActivity extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_medicalrecords, container, false);
+        return inflater.inflate(R.layout.fragment_questionnaire, container, false);
     }
 }
