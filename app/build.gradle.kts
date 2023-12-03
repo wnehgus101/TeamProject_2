@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    namespace = "org.techtown.myapplication"
-    compileSdk = 33
+    namespace = "com.example.teamproject2"
+    compileSdk = 34
 
     defaultConfig {
-        applicationId = "org.techtown.myapplication"
-        minSdk = 33
+        applicationId = "com.example.teamproject2"
+        minSdk = 24
         targetSdk = 33
         versionCode = 1
         versionName = "1.0"
@@ -19,13 +19,17 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = false
-            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
         }
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
+    buildToolsVersion = "34.0.0"
 }
 
 dependencies {
