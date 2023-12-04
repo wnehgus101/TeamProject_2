@@ -23,6 +23,7 @@
         </activity>
         <activity android:name=".Profile"/>
         <activity android:name=".Review"/>
+        <activity android:name=".SignUpTest"/>
     </application>
 
 </manifest>

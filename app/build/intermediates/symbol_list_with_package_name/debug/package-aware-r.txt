@@ -77,6 +77,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array gender_array
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -3175,8 +3176,10 @@ id clockwise
 id closest
 id collapseActionView
 id compress
+id confirm
 id confirm_button
 id constraint
+id contact
 id container
 id content
 id contentPanel
@@ -3251,6 +3254,7 @@ id forever
 id fragment_container_view_tag
 id frost
 id fullscreen_header
+id gender_spinner
 id ghost_view
 id ghost_view_holder
 id gone
@@ -3267,6 +3271,7 @@ id honorRequest
 id horizontal_only
 id icon
 id icon_group
+id id
 id ifRoom
 id ignore
 id ignoreRequest
@@ -3357,6 +3362,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id name
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3413,6 +3419,7 @@ id pressed
 id profile
 id progress_circular
 id progress_horizontal
+id pw
 id radio
 id ratio
 id rectangles
@@ -3455,6 +3462,8 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id signup_pro_test
+id signup_user_test
 id sin
 id skipCollapsed
 id skipped
@@ -3779,6 +3788,7 @@ layout review
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout signup_test
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
 mipmap ic_launcher_round
@@ -3823,13 +3833,17 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
+string confirm
+string contact
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string female
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string id
 string item_view_role_description
 string m3_exceed_max_badge_text_suffix
 string m3_ref_typeface_brand_medium
@@ -3847,6 +3861,7 @@ string m3_sys_motion_easing_linear
 string m3_sys_motion_easing_standard
 string m3_sys_motion_easing_standard_accelerate
 string m3_sys_motion_easing_standard_decelerate
+string male
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_24h_suffix
@@ -3931,11 +3946,13 @@ string mtrl_switch_track_decoration_path
 string mtrl_switch_track_path
 string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
+string name
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string pw
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description

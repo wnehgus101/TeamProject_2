@@ -38,6 +38,7 @@
         </activity>
         <activity android:name="org.techtown.myapplication.Profile" />
         <activity android:name="org.techtown.myapplication.Review" />
+        <activity android:name="org.techtown.myapplication.SignUpTest" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
