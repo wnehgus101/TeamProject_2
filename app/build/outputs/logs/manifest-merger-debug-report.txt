@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:2:1-29:12
+ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:2:1-32:12
 MERGED from [com.google.android.material:material:1.10.0] /Users/judohyeon/.gradle/caches/transforms-3/99560dc8d0d2bb4d68d23467c9c0ca6f/transformed/material-1.10.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/judohyeon/.gradle/caches/transforms-3/5acf9a84f6874f66961cd7fc314b86a2/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/judohyeon/.gradle/caches/transforms-3/04a0f34cf908c682d73fc22f94c08cc8/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
@@ -55,9 +55,13 @@ MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/judohyeon
 		INJECTED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:5:5-76
+	android:name
+		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:5:22-73
 application
-ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:5:5-27:19
-INJECTED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:5:5-27:19
+ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:7:5-30:19
+INJECTED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:7:5-30:19
 MERGED from [com.google.android.material:material:1.10.0] /Users/judohyeon/.gradle/caches/transforms-3/99560dc8d0d2bb4d68d23467c9c0ca6f/transformed/material-1.10.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.10.0] /Users/judohyeon/.gradle/caches/transforms-3/99560dc8d0d2bb4d68d23467c9c0ca6f/transformed/material-1.10.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/judohyeon/.gradle/caches/transforms-3/5acf9a84f6874f66961cd7fc314b86a2/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -79,51 +83,55 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/judohyeon/.gradle/ca
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] /Users/judohyeon/.gradle/caches/transforms-3/28a7af075d5af218c19b63a2f54b1523/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:12:9-41
 	android:fullBackupContent
-		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:8:9-54
+		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:10:9-54
 	android:roundIcon
-		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:11:9-54
+		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:13:9-54
 	tools:targetApi
-		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:14:9-29
+		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:16:9-29
 	android:icon
-		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:13:9-51
+		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:15:9-51
 	android:dataExtractionRules
-		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:7:9-65
+		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:9:9-65
 activity#org.techtown.myapplication.MainActivity
-ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:15:9-23:20
+ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:17:9-25:20
 	android:exported
-		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:17:13-36
+		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:19:13-36
 	android:name
-		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:16:13-41
+		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:18:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:18:13-22:29
+ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:19:17-69
+ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:19:25-66
+		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:21:17-77
+ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:21:27-74
+		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:23:27-74
 activity#org.techtown.myapplication.Profile
-ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:24:9-44
+ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:26:9-44
 	android:name
-		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:24:19-42
+		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:26:19-42
 activity#org.techtown.myapplication.Review
-ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:25:9-43
+ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:27:9-43
 	android:name
-		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:25:19-41
+		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:27:19-41
 activity#org.techtown.myapplication.SignUpTest
-ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:26:9-47
+ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:28:9-47
 	android:name
-		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:26:19-45
+		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:28:19-45
+activity#org.techtown.myapplication.ProSignUpTest
+ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:29:9-50
+	android:name
+		ADDED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml:29:19-48
 uses-sdk
 INJECTED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/judohyeon/AndroidStudioProjects/TeamProject_2/app/src/main/AndroidManifest.xml
