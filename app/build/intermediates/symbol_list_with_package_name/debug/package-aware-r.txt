@@ -3156,6 +3156,8 @@ id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_button
+id careable_pet
+id career
 id carryVelocity
 id center
 id centerCrop
@@ -3286,6 +3288,7 @@ id immediateStop
 id included
 id indeterminate
 id info
+id introduce
 id invisible
 id inward
 id italic
@@ -3416,6 +3419,8 @@ id pin
 id position
 id postLayout
 id pressed
+id price
+id pro_image
 id profile
 id progress_circular
 id progress_horizontal
@@ -3454,6 +3459,7 @@ id search_plate
 id search_src_text
 id search_voice_btn
 id select_dialog_listview
+id select_image
 id selected
 id selection_type
 id sharedValueSet
@@ -3784,6 +3790,7 @@ layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout profile
+layout prosignup_test
 layout review
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
@@ -3829,6 +3836,8 @@ string bottomsheet_action_expand
 string bottomsheet_action_expand_halfway
 string bottomsheet_drag_handle_clicked
 string bottomsheet_drag_handle_content_description
+string careable_pet
+string career
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -3844,6 +3853,7 @@ string female
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string id
+string introduce
 string item_view_role_description
 string m3_exceed_max_badge_text_suffix
 string m3_ref_typeface_brand_medium
@@ -3952,11 +3962,13 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string price
 string pw
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
 string searchview_navigation_content_description
+string select
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow

@@ -37,7 +37,8 @@ public class SignUpTest extends AppCompatActivity {
         }
 
         //데이터베이스 객체 생성 및 연결
-        DataBaseHelper db_helper = new DataBaseHelper(this);
+        DataBaseHandler db_handler = new DataBaseHandler(getApplicationContext());
+
 
         //성별 항목 가져오기
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
@@ -57,6 +58,7 @@ public class SignUpTest extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> parentView, View selectedItemView, int position, long id) {
                 String selected_gender = parentView.getItemAtPosition(position).toString();
+                Toast.makeText(SignUpTest.this, selected_gender + "가 선택되었습니다.", Toast.LENGTH_SHORT).show();
             }
             @Override
             public void onNothingSelected(AdapterView<?> parentView) {
@@ -74,15 +76,14 @@ public class SignUpTest extends AppCompatActivity {
                 String name = user_name.getText().toString().trim();
                 String contact = user_contact.getText().toString().trim();
                 String gender = gender_spinner.getSelectedItem().toString();
-                int userType = user_type;
 
                 //입략값 데이터베이스에 저장
-                long result = db_helper.insertUser(userId, userPw, name, contact, gender, userType);
+                long result = db_handler.addUserData(userId, userPw, name, contact, gender, user_type);
 
                 if(result != 1){ //회원가입 성공 시에 추가 정보를 입력 받는 엑티비티로 이동한다.
-                    //Toast.makeText(SignUpTest.this, "회원가입 성공, 추가 정보를 입력해주세요.", Toast.LENGTH_SHORT).show();
-                    //Intent intent = new Intent(getApplicationContext(), ProSignUpTest.class);
-                    //startActivity(intent);
+                    Toast.makeText(SignUpTest.this, "회원가입 성공, 추가 정보를 입력해주세요.", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(getApplicationContext(), ProSignUpTest.class);
+                    startActivity(intent);
                 } else { //회원가입 실패 시
                     Toast.makeText(SignUpTest.this, "회원가입 실패, 정보를 수정해주세요.", Toast.LENGTH_SHORT).show();
                 }

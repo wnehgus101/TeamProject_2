@@ -24,10 +24,6 @@
         "source": "/Users/judohyeon/.gradle/daemon/8.0/org.techtown.myapplication.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "org.techtown.myapplication.app-merged_res-31:/layout_profile.xml.flat",
-        "source": "org.techtown.myapplication.app-main-33:/layout/profile.xml"
-    },
-    {
         "merged": "/Users/judohyeon/.gradle/daemon/8.0/org.techtown.myapplication.app-merged_res-31:/xml_backup_rules.xml.flat",
         "source": "/Users/judohyeon/.gradle/daemon/8.0/org.techtown.myapplication.app-main-33:/xml/backup_rules.xml"
     },
@@ -38,10 +34,6 @@
     {
         "merged": "/Users/judohyeon/.gradle/daemon/8.0/org.techtown.myapplication.app-merged_res-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "/Users/judohyeon/.gradle/daemon/8.0/org.techtown.myapplication.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "org.techtown.myapplication.app-merged_res-31:/layout_activity_main.xml.flat",
-        "source": "org.techtown.myapplication.app-main-33:/layout/activity_main.xml"
     },
     {
         "merged": "/Users/judohyeon/.gradle/daemon/8.0/org.techtown.myapplication.app-merged_res-31:/layout_profile.xml.flat",
@@ -56,8 +48,16 @@
         "source": "/Users/judohyeon/.gradle/daemon/8.0/org.techtown.myapplication.app-main-33:/layout/review.xml"
     },
     {
+        "merged": "/Users/judohyeon/.gradle/daemon/8.0/org.techtown.myapplication.app-merged_res-31:/layout_signup_test.xml.flat",
+        "source": "/Users/judohyeon/.gradle/daemon/8.0/org.techtown.myapplication.app-main-33:/layout/signup_test.xml"
+    },
+    {
         "merged": "/Users/judohyeon/.gradle/daemon/8.0/org.techtown.myapplication.app-merged_res-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "/Users/judohyeon/.gradle/daemon/8.0/org.techtown.myapplication.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "org.techtown.myapplication.app-merged_res-31:/layout_prosignup_test.xml.flat",
+        "source": "org.techtown.myapplication.app-main-33:/layout/prosignup_test.xml"
     },
     {
         "merged": "/Users/judohyeon/.gradle/daemon/8.0/org.techtown.myapplication.app-merged_res-31:/mipmap-mdpi_ic_launcher.webp.flat",
@@ -76,16 +76,8 @@
         "source": "/Users/judohyeon/.gradle/daemon/8.0/org.techtown.myapplication.app-main-33:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "org.techtown.myapplication.app-merged_res-31:/layout_signup_test.xml.flat",
-        "source": "org.techtown.myapplication.app-main-33:/layout/signup_test.xml"
-    },
-    {
         "merged": "/Users/judohyeon/.gradle/daemon/8.0/org.techtown.myapplication.app-merged_res-31:/drawable_ic_launcher_background.xml.flat",
         "source": "/Users/judohyeon/.gradle/daemon/8.0/org.techtown.myapplication.app-main-33:/drawable/ic_launcher_background.xml"
-    },
-    {
-        "merged": "org.techtown.myapplication.app-merged_res-31:/layout_review.xml.flat",
-        "source": "org.techtown.myapplication.app-main-33:/layout/review.xml"
     },
     {
         "merged": "/Users/judohyeon/.gradle/daemon/8.0/org.techtown.myapplication.app-merged_res-31:/drawable_ic_launcher_foreground.xml.flat",
