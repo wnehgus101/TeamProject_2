@@ -11,11 +11,23 @@
         android:id="@+id/profile"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="profile" />
+        android:text="profile_test" />
 
     <Button
         android:id="@+id/review"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="review" />
+        android:text="review_test" />
+
+    <Button
+        android:id="@+id/signup_pro_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pro_test" />
+
+    <Button
+        android:id="@+id/signup_user_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="user_test" />
 </LinearLayout>

@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+array gender_array
 color black
 color white
 drawable ic_launcher_background
@@ -16,15 +17,23 @@ id button3
 id button4
 id button5
 id button6
+id confirm
+id contact
+id gender_spinner
+id id
 id imageView
 id imageView5
 id imageView6
 id imageView7
 id imageView8
 id imageView9
+id name
 id profile
+id pw
 id review
 id scrollView2
+id signup_pro_test
+id signup_user_test
 id textView
 id textView10
 id textView11
@@ -58,9 +67,17 @@ id view21
 layout activity_main
 layout profile
 layout review
+layout signup_test
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string confirm
+string contact
+string female
+string id
+string male
+string name
+string pw
 style Base.Theme.MyApplication
 style Theme.MyApplication
 xml backup_rules

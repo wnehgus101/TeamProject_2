@@ -1,5 +1,6 @@
 package org.techtown.myapplication;
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
@@ -40,8 +41,24 @@ public class DataBaseHelper extends SQLiteOpenHelper{
 
     //테이블 정보 갱신
     @Override
-    public void onUpgrade(SQLiteDatabase db, int oldversion, int newversion){
+    public void onUpgrade(SQLiteDatabase db, int old_version, int new_version){
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_USERS);
         onCreate(db);
+    }
+
+    //사용자 정보를 테이블에 저장하는 메서드
+    public long insertUser(String user_id, String user_pw, String user_name, String user_contact, String gender, int role){
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues values = new ContentValues();
+
+        values.put(COLUNM_USER_ID, user_id);
+        values.put(COLUNM_USER_PW, user_pw);
+        values.put(COLUNM_USERNAME, user_name);
+        values.put(COLUNM_CONTACT, user_contact);
+        values.put(COLUNM_GENDER, gender);
+        values.put(COLUNM_ROLE, role);
+
+        long result = db.insert(TABLE_USERS, null, values);
+        return result;
     }
 }
