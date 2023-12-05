@@ -5,6 +5,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 public class DataBaseHelper extends SQLiteOpenHelper{
+
     private static final String DATABASE_NAME = "pet_center_database"; //데이터베이스 이름
     private static final int DATABASE_VERSION = 1;
 
@@ -28,12 +29,15 @@ public class DataBaseHelper extends SQLiteOpenHelper{
 
         //expert table 생성
         String create_expert_table_query = "CREATE TABLE expert_table ("
-                + "number INTEGER PRIMARY KEY,"
+                + "number INTEGER PRIMARY KEY AUTOINCREMENT,"
                 + "image_path TEXT,"
                 + "career TEXT,"
                 + "introduce TEXT,"
                 + "price TEXT,"
-                + "careable_pet TEXT)";
+                + "careable_pet TEXT,"
+                + "confirm INTEGER,"
+                + "user_number INTEGER REFERENCES user_table(number)"
+                + ")";
         db.execSQL(create_expert_table_query);
     }
 
@@ -43,5 +47,10 @@ public class DataBaseHelper extends SQLiteOpenHelper{
         db.execSQL("DROP TABLE IF EXISTS user_table");
         db.execSQL("DROP TABLE IF EXISTS expert_table");
         onCreate(db);
+    }
+
+    @Override
+    public SQLiteDatabase getReadableDatabase(){
+        return super.getReadableDatabase();
     }
 }
