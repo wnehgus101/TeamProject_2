@@ -37,61 +37,57 @@
         android:layout_marginStart="16dp"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="84dp"
+        tools:layout_editor_absoluteY="108dp"
         tools:srcCompat="@tools:sample/avatars" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="111dp"
-        android:layout_height="37dp"
-        android:gravity="center"
-        android:text=" 000 수의사"
-        android:textAlignment="viewStart"
-        android:textColor="#0E0E0E"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:typeface="normal"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="140dp"
-        tools:layout_editor_absoluteY="84dp" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="81dp"
-        android:layout_height="23dp"
-        android:gravity="center"
-        android:text=" 경력: 000"
-        android:textAlignment="center"
-        android:textColor="#0E0E0E"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="140dp"
-        tools:layout_editor_absoluteY="132dp" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="81dp"
-        android:layout_height="23dp"
-        android:gravity="center"
-        android:text="위치: 000"
-        android:textAlignment="center"
-        android:textColor="#0E0E0E"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="140dp"
-        tools:layout_editor_absoluteY="170dp" />
 
     <ToggleButton
         android:id="@+id/toggleButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="84dp"
-        android:layout_marginEnd="36dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="16dp"
         android:text="ToggleButton"
         android:textOff="상담 불가"
         android:textOn="상담 가능"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <LinearLayout
+        android:layout_width="166dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar4" >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="3dp"
+            android:text="000수의사"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="3dp"
+            android:text="경력:"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="3dp"
+            android:text="병원 위치"
+            android:textSize="16sp" />
+    </LinearLayout>
+
     <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="1dp"
@@ -117,8 +113,8 @@
 
     <FrameLayout
         android:id="@+id/frameLayout4"
-        android:layout_width="409dp"
-        android:layout_height="464dp"
+        android:layout_width="410dp"
+        android:layout_height="416dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">

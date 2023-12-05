@@ -60,6 +60,6 @@ public class MainActvity2 extends AppCompatActivity {
     }
 
     private void replaceFragment(Fragment fragment) {
-        getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.container2, fragment).commit();
     }
 }

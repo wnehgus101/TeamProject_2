@@ -28,7 +28,7 @@ public class DoctorJoinActivity extends AppCompatActivity{
 
         Button checkButton = findViewById(R.id.check_button);
         Button checkButton2 = findViewById(R.id.check_button2);
-        Button completeButton = findViewById(R.id.complete);
+        Button completeButton = findViewById(R.id.button5);
 
         // 확인 버튼 클릭 시
         checkButton.setOnClickListener(new View.OnClickListener() {
