@@ -30,4 +30,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="user_test" />
+
+    <Button
+        android:id="@+id/onlineCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="onlineCall_test" />
 </LinearLayout>

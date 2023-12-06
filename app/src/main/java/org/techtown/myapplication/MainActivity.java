@@ -8,10 +8,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
+import java.util.ArrayList;
+import java.util.List;
 public class MainActivity extends AppCompatActivity {
     //전문가와 사용자의 버튼에 따라서 0,1의 값을 넘기고 해당 엑티비티를 여는 함수
-    private void startNextActivityWithValue(int user_types){
+    private void startNextActivityWithValue(int user_types) {
         Intent intent = new Intent(MainActivity.this, SignUpTest.class);
         intent.putExtra("user_type", user_types);
         startActivity(intent);
@@ -55,5 +58,15 @@ public class MainActivity extends AppCompatActivity {
                 startNextActivityWithValue(1);
             }
         });
+
+        Button onlineCalling = findViewById(R.id.onlineCall);
+        onlineCalling.setOnClickListener(new View.OnClickListener() { //화상통화 테스트 전환 버튼
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, Call.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }

@@ -8,7 +8,12 @@
         android:minSdkVersion="33"
         android:targetSdkVersion="33" />
 
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
     <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <permission
         android:name="org.techtown.myapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -42,6 +47,7 @@
         <activity android:name="org.techtown.myapplication.Review" />
         <activity android:name="org.techtown.myapplication.SignUpTest" />
         <activity android:name="org.techtown.myapplication.ProSignUpTest" />
+        <activity android:name="org.techtown.myapplication.Call" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
