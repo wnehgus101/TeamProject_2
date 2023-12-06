@@ -1,102 +1,110 @@
 [
     {
-        "merged": "org.techtown.myapplication.app-merged_res-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "org.techtown.myapplication.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-merged_res-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "org.techtown.myapplication.app-merged_res-31:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "org.techtown.myapplication.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-merged_res-31:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-main-33:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "org.techtown.myapplication.app-merged_res-31:/drawable_woman.png.flat",
-        "source": "org.techtown.myapplication.app-main-33:/drawable/woman.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-merged_res-31:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "org.techtown.myapplication.app-merged_res-31:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "org.techtown.myapplication.app-main-33:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-merged_res-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "org.techtown.myapplication.app-merged_res-31:/drawable_ic_launcher_background.xml.flat",
-        "source": "org.techtown.myapplication.app-main-33:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-merged_res-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-main-33:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "org.techtown.myapplication.app-merged_res-31:/xml_data_extraction_rules.xml.flat",
-        "source": "org.techtown.myapplication.app-main-33:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-merged_res-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "org.techtown.myapplication.app-merged_res-31:/xml_backup_rules.xml.flat",
-        "source": "org.techtown.myapplication.app-main-33:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-merged_res-31:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-main-33:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "org.techtown.myapplication.app-merged_res-31:/drawable_girl.jpg.flat",
-        "source": "org.techtown.myapplication.app-main-33:/drawable/girl.jpg"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-merged_res-31:\\drawable_woman.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-main-33:\\drawable\\woman.png"
     },
     {
-        "merged": "org.techtown.myapplication.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "org.techtown.myapplication.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-merged_res-31:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-main-33:\\mipmap-anydpi\\ic_launcher_round.xml"
     },
     {
-        "merged": "org.techtown.myapplication.app-merged_res-31:/layout_signup_test.xml.flat",
-        "source": "org.techtown.myapplication.app-main-33:/layout/signup_test.xml"
+        "merged": "org.techtown.myapplication.app-merged_res-31:/layout_call.xml.flat",
+        "source": "org.techtown.myapplication.app-main-33:/layout/call.xml"
     },
     {
-        "merged": "org.techtown.myapplication.app-merged_res-31:/layout_review.xml.flat",
-        "source": "org.techtown.myapplication.app-main-33:/layout/review.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-merged_res-31:\\layout_review.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-main-33:\\layout\\review.xml"
     },
     {
-        "merged": "org.techtown.myapplication.app-merged_res-31:/mipmap-anydpi_ic_launcher.xml.flat",
-        "source": "org.techtown.myapplication.app-main-33:/mipmap-anydpi/ic_launcher.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-merged_res-31:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-main-33:\\mipmap-anydpi\\ic_launcher.xml"
     },
     {
-        "merged": "org.techtown.myapplication.app-merged_res-31:/layout_profile.xml.flat",
-        "source": "org.techtown.myapplication.app-main-33:/layout/profile.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "org.techtown.myapplication.app-merged_res-31:/mipmap-anydpi_ic_launcher_round.xml.flat",
-        "source": "org.techtown.myapplication.app-main-33:/mipmap-anydpi/ic_launcher_round.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-merged_res-31:\\drawable_girl.jpg.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-main-33:\\drawable\\girl.jpg"
     },
     {
-        "merged": "org.techtown.myapplication.app-merged_res-31:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "org.techtown.myapplication.app-main-33:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "org.techtown.myapplication.app-merged_res-31:/layout_activity_main.xml.flat",
-        "source": "org.techtown.myapplication.app-main-33:/layout/activity_main.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "org.techtown.myapplication.app-merged_res-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "org.techtown.myapplication.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "org.techtown.myapplication.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "org.techtown.myapplication.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-merged_res-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "org.techtown.myapplication.app-merged_res-31:/layout_prosignup_test.xml.flat",
-        "source": "org.techtown.myapplication.app-main-33:/layout/prosignup_test.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-merged_res-31:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-main-33:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "org.techtown.myapplication.app-merged_res-31:/drawable_man.png.flat",
-        "source": "org.techtown.myapplication.app-main-33:/drawable/man.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-merged_res-31:\\layout_prosignup_test.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-main-33:\\layout\\prosignup_test.xml"
     },
     {
-        "merged": "org.techtown.myapplication.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "org.techtown.myapplication.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-merged_res-31:\\layout_call.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-main-33:\\layout\\call.xml"
     },
     {
-        "merged": "org.techtown.myapplication.app-merged_res-31:/drawable_boy.jpg.flat",
-        "source": "org.techtown.myapplication.app-main-33:/drawable/boy.jpg"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-merged_res-31:\\layout_signup_test.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-main-33:\\layout\\signup_test.xml"
     },
     {
-        "merged": "org.techtown.myapplication.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "org.techtown.myapplication.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-merged_res-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-main-33:\\layout\\activity_main.xml"
     },
     {
-        "merged": "org.techtown.myapplication.app-merged_res-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "org.techtown.myapplication.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-merged_res-31:\\drawable_man.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-main-33:\\drawable\\man.png"
     },
     {
-        "merged": "org.techtown.myapplication.app-merged_res-31:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "org.techtown.myapplication.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-merged_res-31:\\layout_profile.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-main-33:\\layout\\profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-merged_res-31:\\drawable_boy.jpg.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-main-33:\\drawable\\boy.jpg"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-merged_res-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.0\\org.techtown.myapplication.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
     }
 ]

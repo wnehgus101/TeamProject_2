@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+<<<<<<< HEAD
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
@@ -12,6 +13,33 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="profile_test" />
+=======
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/menu_bottom_navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        app:itemIconTint="@drawable/menu_item_color"
+        app:itemTextColor="@drawable/menu_item_color"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/menu_bottom" />
+>>>>>>> 6fc3c4e7b4808af509ba2db910f61e7d8a0cda7e
 
     <Button
         android:id="@+id/review"
@@ -30,4 +58,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="user_test" />
+
+    <Button
+        android:id="@+id/onlineCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="onlineCall_test" />
 </LinearLayout>
