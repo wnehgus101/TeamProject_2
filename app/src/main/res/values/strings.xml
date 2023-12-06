@@ -1,5 +1,32 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">test4</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+=======
+<<<<<<< HEAD
+    <string name="app_name">My Application</string>
+    <string name="id">아이디</string>
+    <string name="pw">비밀번호</string>
+    <string name="name">이름</string>
+    <string name="contact">전화번호</string>
+    <string name="male">남성</string>
+    <string name="female">여성</string>
+    <string name="confirm">확인</string>
+    <string name="select">선택</string>
+    <string name="career">경력</string>
+    <string name="introduce">소개</string>
+    <string name="price">금액</string>
+    <string name="careable_pet">진료 가능 동물</string>
+
+    <string-array name="gender_array">
+        <item>남성</item>
+        <item>여성</item>
+    </string-array>
+=======
+    <string name="app_name">test4</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+>>>>>>> 6fc3c4e7b4808af509ba2db910f61e7d8a0cda7e
+>>>>>>> newb
 </resources>
