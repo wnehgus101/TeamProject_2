@@ -1,5 +1,10 @@
 <resources>
 <<<<<<< HEAD
+    <string name="app_name">test4</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+=======
+<<<<<<< HEAD
     <string name="app_name">My Application</string>
     <string name="id">아이디</string>
     <string name="pw">비밀번호</string>
@@ -23,4 +28,5 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 >>>>>>> 6fc3c4e7b4808af509ba2db910f61e7d8a0cda7e
+>>>>>>> newb
 </resources>

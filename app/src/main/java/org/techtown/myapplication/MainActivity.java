@@ -1,6 +1,17 @@
 package org.techtown.myapplication;
 
 <<<<<<< HEAD
+import android.os.Bundle;
+import android.view.MenuItem;
+import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+=======
+<<<<<<< HEAD
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
@@ -14,6 +25,7 @@ import android.widget.TextView;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
+>>>>>>> newb
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -37,11 +49,18 @@ public class MainActivity extends AppCompatActivity {
     ScheduleFragment scheduleFragment;
     RecordFragment recordFragment;
 
+    CounselorFragment counselorFragment;
+    QuestionnaireFragment questionnaireFragment;
+    ScheduleFragment scheduleFragment;
+    RecordFragment recordFragment;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
         Button imageButton = findViewById(R.id.profile);
         imageButton.setOnClickListener(new View.OnClickListener() { //프로필 ui 전환 버튼
@@ -87,6 +106,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 =======
+>>>>>>> newb
         counselorFragment = new CounselorFragment();
         questionnaireFragment = new QuestionnaireFragment();
         scheduleFragment = new ScheduleFragment();
@@ -122,7 +142,10 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
         );
+<<<<<<< HEAD
+=======
 >>>>>>> 6fc3c4e7b4808af509ba2db910f61e7d8a0cda7e
+>>>>>>> newb
     }
 
     private void replaceFragment(Fragment fragment) {
